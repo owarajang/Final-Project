@@ -1,9 +1,14 @@
 import random
 
-Question1 =["what is a boolean"]
+
+Question1 =['A boolean is an elif statement!']
 print(Question1)
-Question1Choice = ["true/false","elif"]
-Question1Answer = ["true/false"]
-
-
+QuesetionChoice1 = ['True','False']
 user = input()
+if (user == "false") or (user == "False"):
+    print("correct")
+else:
+    print("false")
+
+
+
