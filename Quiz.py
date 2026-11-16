@@ -1,6 +1,9 @@
 import random
 
-def add (number1,number2):
-    return number1 + number2
-result = add(10,15)
-print(result)
+Question1 =["what is a boolean"]
+print(Question1)
+Question1Choice = ["true/false","elif"]
+Question1Answer = ["true/false"]
+
+
+user = input()
